@@ -8,6 +8,9 @@
 
 #### [Detection Outputs on KITTI Validation Set](https://cloud.tsinghua.edu.cn/f/57dbe05ad60b4e3c8e64/?dl=1)
 
+### Related Project
+[Triangulation Learning Network: from Monocular to Stereo 3D Object Detection](https://github.com/Zengyi-Qin/TLNet)
+
 ### Prerequisites
 - Ubuntu 16.04
 - Python 2.7
