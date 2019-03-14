@@ -6,7 +6,7 @@
 
 #### [Video Demo](https://cloud.tsinghua.edu.cn/f/194ddabfd05d4dc78b9f/)
 
-#### [Detection Outputs on KITTI Validation Set]()
+#### [Detection Outputs on KITTI Validation Set](https://cloud.tsinghua.edu.cn/f/57dbe05ad60b4e3c8e64/?dl=1)
 
 ### Prerequisites
 - Ubuntu 16.04
@@ -39,4 +39,8 @@ Run the training script and specify the GPU to use:
 python train.py --gpus 0
 ```
 The evaluation is done during training. You can adjust the evaluation intervals in `hypes/kittiBox.json`.
+
+### Acknowledgement
+We would like to thank the authors of [KittiBox](https://github.com/MarvinTeichmann/KittiBox) for their code.
+
 
