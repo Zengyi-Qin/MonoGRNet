@@ -8,8 +8,20 @@
 
 #### [Detection Outputs on KITTI Validation Set](https://cloud.tsinghua.edu.cn/f/57dbe05ad60b4e3c8e64/?dl=1)
 
+<br/>
+
 ### Related Project
-[Triangulation Learning Network: from Monocular to Stereo 3D Object Detection](https://github.com/Zengyi-Qin/TLNet)
+[**Triangulation Learning Network: from Monocular to Stereo 3D Object Detection**](https://github.com/Zengyi-Qin/TLNet)
+
+Please cite this paper if you find the repository helpful:
+```
+@article{qin2019monogrnet, 
+  title={MonoGRNet: A Geometric Reasoning Network for 3D Object Localization}, 
+  author={Zengyi Qin and Jinglu Wang and Yan Lu},
+  journal={The Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19)},
+  year={2019}
+}
+```
 
 ### Prerequisites
 - Ubuntu 16.04
