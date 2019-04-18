@@ -28,11 +28,12 @@ Please cite this paper if you find the repository helpful:
 - Python 2.7
 - Tensorflow 1.4.0
 
+### Install
 Clone this repository
 ```bash
 git clone https://github.com/Zengyi-Qin/MonoGRNet.git
 ```
-### Dataset
+
 Download the [Kitti Object Detection Dataset](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) ([image](http://www.cvlibs.net/download.php?file=data_object_image_2.zip), [calib](http://www.cvlibs.net/download.php?file=data_object_calib.zip) and [label](http://www.cvlibs.net/download.php?file=data_object_label_2.zip)) and place it into `data/KittiBox`. The folder should be in the following structure:
 ```
 data
@@ -45,8 +46,7 @@ data
         val.txt
 ```
 The train-val split `train.txt` and `val.txt` are contained in this repository.
-
-### Install 
+ 
 Compile the Cython module and download the pretrained model:
 ```bash
 python setup.py
