@@ -2,6 +2,9 @@ import os
 # build Cython module
 os.system('cd ./include/utils/ && make')
 
+# build KITTI evaluation module
+os.system('cd ./submodules/KittiEvaluation/ && make')
+
 # download the pretrained model
 if not os.path.exists('./data/model_2D.pkl'):
     os.system('wget https://cloud.tsinghua.edu.cn/f/d958b1da1c49496fa951/?dl=1 -O pretrained.tar.gz')
