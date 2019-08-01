@@ -59,6 +59,12 @@ python train.py --gpus 0
 ```
 The evaluation is done during training. You can adjust the evaluation intervals in `hypes/kittiBox.json`.
 
+### Visualization
+```bash
+cd visualize && mkdir visualize
+python visualize.py
+```
+
 ### Acknowledgement
 We would like to thank the authors of [KittiBox](https://github.com/MarvinTeichmann/KittiBox) for their code.
 
