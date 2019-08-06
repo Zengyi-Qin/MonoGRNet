@@ -327,17 +327,14 @@ def _build_output_layer(hyp, hidden_output, data_dict, logits, calib_pinv, label
     principle_points = tf.reshape(calib[:, :2, 2], (outer_size, 2))
     translations = tf.reshape(calib[:, :2, 3], (outer_size, 2))
     focal_length = tf.reshape(calib[:, 0, 0], (outer_size, 1))
-    """
+
     if train:
         boxes, dimensions, location, alpha = tf.split(labels[1], [4, 3, 3, 1], 3)
         location_x, location_y, depths = tf.split(location, [1, 1, 1], 3)
         use_depths = tf.reshape(depths, (outer_size, 1))
     else:
         use_depths = tf.reshape(pred_depths, (outer_size, 1))
-    """
-
-
-    use_depths = tf.reshape(pred_depths, (outer_size, 1))
+    
 
     pred_depths = tf.reshape(pred_depths, (outer_size, 1))
 
