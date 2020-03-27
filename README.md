@@ -2,6 +2,8 @@
 
 [![Watch the video](demo.jpg)](https://cloud.tsinghua.edu.cn/f/194ddabfd05d4dc78b9f/)
 
+#### Created by [Zengyi Qin](http://www.qinzy.tech/), Jinglu Wang and Yan Lu.
+
 #### The repository contains an implementation of this [AAAI Oral Paper](https://arxiv.org/abs/1811.10247).
 
 #### [Video Demo](https://cloud.tsinghua.edu.cn/f/194ddabfd05d4dc78b9f/)
