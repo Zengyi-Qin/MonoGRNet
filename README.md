@@ -4,7 +4,7 @@
 
 #### Created by [Zengyi Qin](http://www.qinzy.tech/), Jinglu Wang and Yan Lu. The repository contains an implementation of this [AAAI Oral Paper](https://arxiv.org/abs/1811.10247).
 
-#### [Video Demo]([https://cloud.tsinghua.edu.cn/f/194ddabfd05d4dc78b9f/](https://drive.google.com/drive/folders/1iGWyCeX3upI6HLX2IUpuTR1VOSq8Ysap?usp=sharing)) | [Detection Outputs on KITTI Validation Set]([https://cloud.tsinghua.edu.cn/f/57dbe05ad60b4e3c8e64/?dl=1](https://drive.google.com/drive/folders/1iGWyCeX3upI6HLX2IUpuTR1VOSq8Ysap?usp=sharing))
+#### [Video Demo](https://drive.google.com/file/d/1acr-Wkt52NgKp8ol8OMGp-0AxEtkl9Ur/view?usp=sharing) | [Detection Outputs on KITTI Validation Set](https://drive.google.com/file/d/16xJZqpe45XbvmZqoF0OJ8gTK4A3YIaka/view?usp=sharing)
 
 <br/>
 
@@ -45,10 +45,12 @@ data
 ```
 The train-val split `train.txt` and `val.txt` are contained in this repository.
  
-Compile the Cython module and download the pretrained model:
+Compile the Cython module:
 ```bash
-python setup.py
+python compile_cython.py
 ```
+
+Download the pretrained model from [this link](https://drive.google.com/file/d/1sLOpKN9Vc40miE5lAWielxabRhizZ0x9/view?usp=sharing) and extract.
 
 ### Training and evaluation
 Run the training script and specify the GPU to use:
