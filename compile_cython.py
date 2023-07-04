@@ -14,8 +14,8 @@ os.system('cd ./submodules/KittiEvaluation/ && make')
 # print('Pretrained model downloaded.')
 
 # check for Kitti data
-if not os.path.exists('./data/KittiBox/training'):
-    print('Kitti data not found. Please place it in ./data/KittiBox/training')
-    exit()
+# if not os.path.exists('./data/KittiBox/training'):
+#   print('Kitti data not found. Please place it in ./data/KittiBox/training')
+#    exit()
 
 print('Setup finished!')
